@@ -1,0 +1,14 @@
+SISRS Test Data Generation
+
+Python v.3.6.1
+Bowtie 2 version 2.3.4
+Samtools v1.3.1 (using htslib 1.3.1)
+
+$ git clone https://github.com/BobLiterman/SISRS.git
+$ cd SISRS
+$ python setup.py install
+$ sisrs-python alignContigs -a premade -c 0 -p 6 -f RawTestData -z 1_AlignContigs &> log_1_AlignContigs
+$ sisrs-python identifyFixedSites -a premade -c 0 -p 6 -f 1_AlignContigs/ -z 2_IdentifyFixedSites &> log_2_IdentifyFixedSites
+$ sisrs-python outputAlignment -a premade -c 0 -p 6 -f 2_IdentifyFixedSites -z 3_OutputAlignment &> log_3_OutputAlignment
+$ sisrs-python changeMissing -a premade -c 0 -p 6 -m 0 -f 3_OutputAlignment -z 4_ChangeMissing &> log_4_ChangeMissing
+

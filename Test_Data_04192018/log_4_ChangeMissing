@@ -1,0 +1,4 @@
+/home/ralubuntu/Work/GIT_Clones/SISRS/Python/NewTestData/3_OutputAlignment
+With 0 taxa allowed to be missing, 11727 sites from alignment.nex (6 allowed missing) are reduced to 7960 sites (3767 sites or 32.12% lost)
+With 0 taxa allowed to be missing, 6613 sites from alignment_pi.nex (6 allowed missing) are reduced to 4943 sites (1670 sites or 25.25% lost)
+With 0 taxa allowed to be missing, 6428 sites from alignment_bi.nex (6 allowed missing) are reduced to 4811 sites (1617 sites or 25.16% lost)
