@@ -4,7 +4,7 @@ Python v.3.6.1
 Bowtie 2 version 2.3.4
 Samtools v1.3.1 (using htslib 1.3.1)
 
-$ git clone https://github.com/BobLiterman/SISRS.git
+$ git clone -b RAL_Python https://github.com/BobLiterman/SISRS.git
 $ cd SISRS
 $ python setup.py install
 $ sisrs-python alignContigs -a premade -c 0 -p 6 -f RawTestData -z 1_AlignContigs &> log_1_AlignContigs
